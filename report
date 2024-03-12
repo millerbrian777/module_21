@@ -1,0 +1,26 @@
+Overview of the analysis: Explain the purpose of this analysis.
+
+this analysis was for us to determine the success of the application type of these organizations. using a nueral network.
+
+Results: Using bulleted lists and images to support your answers, address the following questions:
+
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+    the variables we are using for the features are 'application type' and 'application classification'   the target is the 'Is successsful'
+What variable(s) are the features for your model?
+  the variables we are using for the features are:
+'application type', 'application classification' , 
+'USE_CASE',	'ORGANIZATION	STATUS',	'INCOME_AMT',	'SPECIAL_CONSIDERATIONS','ASK_AMT'	
+What variable(s) should be removed from the input data because they are neither targets nor features?
+Compiling, Training, and Evaluating the Model
+
+'EIN'	'NAME' are the variables that we removed. 
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Were you able to achieve the target model performance?
+
+I used 3 layers for my nueral network. I was unable to acheive the goal of 75% but i was able to get very close. 
+What steps did you take in your attempts to increase model performance?
+
+I intially started with only 2 hidden layers and one outer layer. then i changed it to 3. it was closer but still not the goal. 
